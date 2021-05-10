@@ -32,7 +32,7 @@
 
 ######################Zadatak 4##############################################
 
-# print('Unesi da saznas ima li samoglasnika.') 
+# print('Unesi string da saznas ima li samoglasnika.') 
 # unos = input('>>> ') 
 # sam = 0
 # for i in unos: 
@@ -56,12 +56,37 @@
 
 ######################Zadatak 5##############################################
 
-string = input('Unesite string: ')
-novi_string = ''
+# string = input('Unesite string: ')
+# novi_string = string[:1] + '*' + string[2:]
+# print(novi_string)
+
 
 ######################Zadatak 6##############################################
 
+# s = input('Unesite string: ')
+# s = s.lower()
+# tacka_zarez = ',.'
+# for i in s:
+#     if i in tacka_zarez:
+#         s = s.replace(i, '')
+# print(s)
+
+
 ######################Zadatak 7##############################################
+
+# s = input('Proveriti da li je palindrom: ')
+# a = ''
+# b = ''
+
+# for i in range(len(s)):
+#     if s[i] != ' ':
+#         a += s[i]
+#         b = s[i] + b   
+# if a == b:
+#     print('Jeste palindrom.')
+# else:
+#     print('Nije palindrom.')
+
 
 ######################Zadatak 8##############################################
 
