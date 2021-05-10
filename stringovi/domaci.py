@@ -1,6 +1,6 @@
 ####################Prvi zadatak##################
 
-s = input('Unesite neki string: ')
+# s = input('Unesite neki string: ')
 
 # print('Vas string ima:',len(s), 'karaktera')
 # print((s + ' ')* 10)
@@ -32,9 +32,32 @@ s = input('Unesite neki string: ')
 
 ######################Zadatak 4##############################################
 
+# print('Unesi da saznas ima li samoglasnika.') 
+# unos = input('>>> ') 
+# sam = 0
+# for i in unos: 
+#     if i in 'aeiouAEIOU': 
+#         sam += 1
+#     elif sam > 0:
+#         print('Ima samoglasnika.')
+#         break
+#     elif i == ' ': 
+#         continue 
+#     elif i in '.,;:\'"-*': 
+#         print('Karakter', i, 'nije slovo') 
+#     else:
+#         pass
+# if sam == 0:
+#     print('Nema samoglasnika.')
+# else:
+#     pass
 
+    
 
 ######################Zadatak 5##############################################
+
+string = input('Unesite string: ')
+novi_string = ''
 
 ######################Zadatak 6##############################################
 
