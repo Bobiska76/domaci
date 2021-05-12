@@ -90,10 +90,32 @@
 
 ######################Zadatak 8##############################################
 
+# f = eval(input('Koliko email adresa unosite: '))
+
+# b = '@prof.college.edu'
+# count = 0
+
+# for i in range (f):
+#     a = input('Unesite email adresu: ')
+#     if b in str(a):
+#         count += 1
+#     else:
+#         pass
+# if count == 0:
+#     print('Sve adrese su studentske, nije bilo profesorskih adresa.')
+# else:
+#     print('Osim studentskih adresa uneto je i', count, 'profesorske adrese.')
+
 ######################Zadatak 9##############################################
+
+# broj = eval(input('Unesite neki broj: '))
+# for i in range (1, broj + 1):
+#     print(' ' * i, i)
 
 ######################Zadatak 10##############################################
 
+# s = input('Unesite neku rec: ')
 
-
+# for i in range(len(s)):
+#     print(s[i] * 2)
 
