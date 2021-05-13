@@ -19,10 +19,14 @@
 
 ###############################Drugi zadatak########################################
 
-#Jedan jednostavan način da se proceni broj reči u stringu
-#je da se prebroji broj blanko znakova (space) u stringu. 
-# Napišite program koji traži od korisnika da unese tekst, 
-# a onda mu vraća procenjeni broj reči u tom stringu.
+# a = input('Unesite recenicu: ')
+# n = 1
+# for i in range(len(a)):
+#     if a[i] == ' ':
+#         n += 1
+#     else:
+#         pass
+# print('Vasa recenica se sastoji od',n, 'reci')
 
 #############################Treci Zadatak##################################
 
