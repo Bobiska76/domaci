@@ -26,9 +26,22 @@
 
 #############################Treci Zadatak##################################
 
-#Ljudi često zaborave da zatvore zagradu u formulama. 
-# Napišite program koji traži od korisnika da unese formulu i štampa poruku 
-# da li formula ima isti broj levih i desnih zagrada.
+# formula = input('Unesite formulu: ')
+# leve = 0
+# desne = 0
+
+# for i in formula:
+#     if i in '(':
+#         leve += 1
+#     elif i in ')':
+#         desne += 1
+#     else:
+#         pass
+
+# if leve != desne and leve == 0 or desne == 0:
+#     print('Broj zagrada sa leve i desne strane nije jednak!!!')
+# else:
+#     print('Formula je ispravna. Broj levih i desnih zagrada je jednak')
 
 ######################Zadatak 4##############################################
 
@@ -119,3 +132,22 @@
 # for i in range(len(s)):
 #     print(s[i] * 2)
 
+######################### Zadatak 11###########################################
+
+
+
+######################### Zadatak 12###########################################
+
+
+
+
+######################### Zadatak 13###########################################
+
+
+
+
+######################### Zadatak 14###########################################
+# ime = input('Unesite vase ime i prezime: ')
+# print(ime.capitalize())
+
+######################### Zadatak 15###########################################
