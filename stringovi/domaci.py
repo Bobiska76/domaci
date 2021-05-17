@@ -142,6 +142,20 @@
 
 ######################### Zadatak 12###########################################
 
+# a = input('Unesite rec: ')
+# b = ''
+# i = True
+
+# for char in a:
+#     if i:
+#         b += char.upper()
+#     else:
+#         b += char.lower()
+#     if char != ' ':
+#         i = not i
+
+# print(b)
+
 
 
 
@@ -155,3 +169,27 @@
 # print(ime.capitalize())
 
 ######################### Zadatak 15###########################################
+
+
+
+
+######################### Zadatak 16###########################################
+
+# hole_name = input('Enter name: ')
+
+# name = hole_name.split()[0]
+
+# print('\n')
+# print('\n')
+# print('Dear', hole_name, ',', '\n')
+
+
+# print('I am plesed to offer you our new Platinum Plus Rewardscard \ncard at special introductory APR of 47,99%.'
+# ,name, '\nan offer like this does not come alond evey day, so \nI urge you to call now toll-free at 1-800-314-1592. We \ncannot ofer such low rate for long,', name, 'so call\n'
+# 'right away.')
+
+
+
+
+
+######################### Zadatak 17###########################################
