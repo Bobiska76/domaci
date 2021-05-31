@@ -9,14 +9,15 @@
 # •	Briše prvi i poslednji podatak iz liste, sortira preostale podatke i štampa rezultat.
 # •	Štampa koliko celih brojeva u listi je manje od 5.
 
-# For list of integers
+
 lst = []
 
 lst = [int(item) for item in input("Unesite listu celobrojnih vrednosti, elemente odvojte jednim razmakom : ").split()]
 
 print(lst)
-
-
+print(len(lst))
+print(lst[-1])
+print(lst[:: -1])
 
 
 ########################## drugi zadatak #########################
