@@ -53,19 +53,26 @@ from random import randint
 # •	Štampa srednju vrednost svih elemenata iz liste.
 # •	Štampa najveću i najmanju vrednost iz liste.
 # •	Štampa drugu najmanju i drugu najveću vrednost iz liste.
-# •	Štampa koliko ima parnih brojeva u listi.
+# # •	Štampa koliko ima parnih brojeva u listi.
 
-L = []
-for i in range(20):
-    L.append(randint(1,101))
-print('Lista slucajnih vrednosti', L)
+# L = []
+# for i in range(20):
+#     L.append(randint(1,101))
+# print('Lista slucajnih vrednosti', L)
 
-sv = sum(L)/len(L)
-print('Srednja vrednost je:', sv)
+# sv = sum(L)/len(L)
+# print('Srednja vrednost je:', sv)
 
-L.sort()
-print('Najmanja vrednost:', L[0], 'Najveca vrednost:', L[-1])
-print('Druga najmanja vrednost:', L[1], 'Druga najveca vrednost: ', L[-2])
+# L.sort()
+# print('Najmanja vrednost:', L[0], 'Najveca vrednost:', L[-1])
+# print('Druga najmanja vrednost:', L[1], 'Druga najveca vrednost: ', L[-2])
+
+# brojac_parnih = 0
+
+# for i in range(len(L)):
+#     if (L[i]%2 == 0):
+#         brojac_parnih += 1
+# print('U vasoj listi ima:', brojac_parnih, 'parnih elemenata.')
 
 
 
@@ -80,6 +87,9 @@ print('Druga najmanja vrednost:', L[1], 'Druga najveca vrednost: ', L[-2])
 # •	Duplirajte listu
 # •	Ubacite 25 na indeksu 3
 # Na kraju treba da dobijete listu [4,5,6,25,10,17,4,5,6,10,17] 
+
+
+
 
 ########################## cetvrti zadatak #########################
 
