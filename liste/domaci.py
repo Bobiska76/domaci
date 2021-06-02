@@ -12,6 +12,7 @@ from random import randint
 # •	Briše prvi i poslednji podatak iz liste, sortira preostale podatke i štampa rezultat.
 # •	Štampa koliko celih brojeva u listi je manje od 5.
 
+<<<<<<< HEAD
 # lst = []
 
 # lst = [int(item) for item in input("Unesite listu celobrojnih vrednosti, elemente odvojte jednim razmakom : ").split()]
@@ -27,11 +28,16 @@ from random import randint
 #     print('Vasa lista ne sadrzi element 5')
 
 # brojac = 0
+=======
+
+lst = []
+>>>>>>> 36dde0906112034477d25ebb05bb628daa4e8778
 
 # for i in lst:
 #     if i == 5:
 #         brojac += 1
 
+<<<<<<< HEAD
 # print('U vasoj listi se nalazi', brojac, 'elemenata sa vrednoscu 5')
 
 # del lst[0]
@@ -44,6 +50,12 @@ from random import randint
 #         brojac_2 += 1
 
 # print('U vasoj listi nalazi se', brojac_2, 'elemenata koji su manji od 5')
+=======
+print(lst)
+print(len(lst))
+print(lst[-1])
+print(lst[:: -1])
+>>>>>>> 36dde0906112034477d25ebb05bb628daa4e8778
 
 
 ########################## drugi zadatak #########################
