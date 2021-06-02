@@ -1,3 +1,6 @@
+from random import randint
+
+
 ########################## prvi zadatak #########################
 
 # 1.	Napišite program koji traži od korisnika da unese listu celih brojeva. Program treba da uradi sledeće:
@@ -9,14 +12,38 @@
 # •	Briše prvi i poslednji podatak iz liste, sortira preostale podatke i štampa rezultat.
 # •	Štampa koliko celih brojeva u listi je manje od 5.
 
-# For list of integers
-lst = []
+# lst = []
 
-lst = [int(item) for item in input("Unesite listu celobrojnih vrednosti, elemente odvojte jednim razmakom : ").split()]
+# lst = [int(item) for item in input("Unesite listu celobrojnih vrednosti, elemente odvojte jednim razmakom : ").split()]
 
-print(lst)
+# print('Vasa lista:', lst)
+# print('Vasa lista sadrzi', len(lst), 'elemenata.')
+# print('Poslednji element liste: ', lst[-1])
+# print('Lista unazad', lst[::-1])
 
+# if 5 in lst:
+#     print('Vasa lista sadrzi element 5')
+# else:
+#     print('Vasa lista ne sadrzi element 5')
 
+# brojac = 0
+
+# for i in lst:
+#     if i == 5:
+#         brojac += 1
+
+# print('U vasoj listi se nalazi', brojac, 'elemenata sa vrednoscu 5')
+
+# del lst[0]
+# del lst[-1]
+# print(lst)
+
+# brojac_2 = 0
+# for i in lst:
+#     if i < 5:
+#         brojac_2 += 1
+
+# print('U vasoj listi nalazi se', brojac_2, 'elemenata koji su manji od 5')
 
 
 ########################## drugi zadatak #########################
@@ -27,6 +54,19 @@ print(lst)
 # •	Štampa najveću i najmanju vrednost iz liste.
 # •	Štampa drugu najmanju i drugu najveću vrednost iz liste.
 # •	Štampa koliko ima parnih brojeva u listi.
+
+L = []
+for i in range(20):
+    L.append(randint(1,101))
+print('Lista slucajnih vrednosti', L)
+
+sv = sum(L)/len(L)
+print('Srednja vrednost je:', sv)
+
+L.sort()
+print('Najmanja vrednost:', L[0], 'Najveca vrednost:', L[-1])
+print('Druga najmanja vrednost:', L[1], 'Druga najveca vrednost: ', L[-2])
+
 
 
 
